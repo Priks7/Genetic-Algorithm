@@ -1,0 +1,393 @@
+[
+	{
+		"prof": {
+			"id": 1,
+			"name": "Raj Prakash"
+		}
+	},
+	{
+		"prof": {
+			"id": 2,
+			"name": "Shri Haridhan"
+		}
+	},
+	{
+		"prof": {
+			"id": 3,
+			"name": "Arun Patil"
+		}
+	},
+	{
+		"prof": {
+			"id": 4,
+			"name": "Manohar Jagtap"
+		}
+	},
+	{
+		"prof": {
+			"id": 5,
+			"name": "Ambreesh Puri"
+		}
+	},
+	{
+		"prof": {
+			"id": 6,
+			"name": "Deepak Goyal"
+		}
+	},
+	{
+		"prof": {
+			"id": 7,
+			"name": "Bharat Ranjan"
+		}
+	},
+	{
+		"prof": {
+			"id": 8,
+			"name": "Jambudvipa Arya"
+		}
+	},
+	{
+		"prof": {
+			"id": 9,
+			"name": "Mukesh Bansode"
+		}
+	},
+	{
+		"prof": {
+			"id": 10,
+			"name": "Rajkumar Bhagwat"
+		}
+	},{
+		"prof": {
+			"id": 11,
+			"name": "Aditya Singhania"
+		}
+	},
+	{
+		"prof": {
+			"id": 12,
+			"name": "Khalid Ansari"
+		}
+	},
+	{
+		"prof": {
+			"id": 13,
+			"name": "Kshitij Kumar"
+		}
+	},
+	{
+		"course": {
+			"id": 1,
+			"name": "Mathematical Foundations for Data Science"
+		}
+	},
+	{
+		"course": {
+			"id": 2,
+			"name": "Research Methodology"
+		}
+	},
+	{
+		"course": {
+			"id": 3,
+			"name": "Basics of Data Science"
+		}
+	},
+	{
+		"course": {
+			"id": 4,
+			"name": "Big Data Analytics"
+		}
+	},
+	{
+		"course": {
+			"id": 5,
+			"name": "Discrete Mathematic I"
+		}
+	},
+	{
+		"course": {
+			"id": 6,
+			"name": "Data Warehousing and Mining"
+		}
+	},
+	{
+		"course": {
+			"id": 7,
+			"name": "Machine Learning"
+		}
+	},
+	{
+		"course": {
+			"id": 8,
+			"name": "Soft Computing"
+		}
+	},
+	{
+		"room": {
+			"name": "R3",
+			"lab": true,
+			"size": 24
+		}
+	},
+	{
+		"room": {
+			"name": "R7",
+			"lab": false,
+			"size": 60
+		}
+	},
+	{
+		"group": {
+			"id": 1,
+			"name": "1O1",
+			"size": 19
+		}
+	},
+	{
+		"group": {
+			"id": 2,
+			"name": "1O2",
+			"size": 19
+		}
+	},
+	{
+		"group": {
+			"id": 3,
+			"name": "1O3",
+			"size": 19
+		}
+	},
+	{
+		"group": {
+			"id": 4,
+			"name": "1S1",
+			"size": 19
+		}
+	},
+	{
+		"class": {
+			"professor": 1,
+			"course": 1,
+			"duration": 2,
+			"groups": [ 1, 2 ]
+		}
+	},
+	{
+		"class": {
+			"professor": 1,
+			"course": 1,
+			"duration": 2,
+			"groups": [ 3, 4 ]
+		}
+	},
+	{
+		"class": {
+			"professor": 9,
+			"course": 1,
+			"duration": 3,
+			"group": 1,
+			"lab": true
+		}
+	},
+	{
+		"class": {
+			"professor": 9,
+			"course": 1,
+			"duration": 3,
+			"group": 2,
+			"lab": true
+		}
+	},
+	{
+		"class": {
+			"professor": 9,
+			"course": 1,
+			"duration": 3,
+			"group": 3,
+			"lab": true
+		}
+	},
+	{
+		"class": {
+			"professor": 9,
+			"course": 1,
+			"duration": 3,
+			"group": 4,
+			"lab": true
+		}
+	},
+	{
+		"class": {
+			"professor": 2,
+			"course": 2,
+			"duration": 2,
+			"group": [ 3, 4 ]
+		}
+	},
+	{
+		"class": {
+			"professor": 2,
+			"course": 2,
+			"duration": 2,
+			"group": [ 1, 2 ]
+		}
+	},
+	{
+		"class": {
+			"professor": 3,
+			"course": 2,
+			"duration": 2,
+			"group": 1,
+			"lab": true
+		}
+	},
+	{
+		"class": {
+			"professor": 3,
+			"course": 2,
+			"duration": 2,
+			"group": 2,
+			"lab": true
+		}
+	},
+	{
+		"class": {
+			"professor": 3,
+			"course": 2,
+			"duration": 2,
+			"group": 3,
+			"lab": true
+		}
+	},
+	{
+		"class": {
+			"professor": 3,
+			"course": 2,
+			"duration": 2,
+			"group": 4,
+			"lab": true
+		}
+	},
+	{
+		"class": {
+			"professor": 4,
+			"course": 4,
+			"duration": 2,
+			"group": [ 3, 4 ]
+		}
+	},
+	{
+		"class": {
+			"professor": 4,
+			"course": 4,
+			"duration": 2,
+			"group": [ 3, 4 ]
+		}
+	},
+	{
+		"class": {
+			"professor": 4,
+			"course": 4,
+			"duration": 2,
+			"group": [ 1, 2 ]
+		}
+	},
+	{
+		"class": {
+			"professor": 4,
+			"course": 4,
+			"duration": 2,
+			"group": [ 1, 2 ]
+		}
+	},
+	{
+		"class": {
+			"professor": 5,
+			"course": 6,
+			"duration": 2,
+			"group": [ 1, 2, 3 ]
+		}
+	},
+	{
+		"class": {
+			"professor": 5,
+			"course": 6,
+			"duration": 2,
+			"group": [ 1, 2, 3 ]
+		}
+	},
+	{
+		"class": {
+			"professor": 7,
+			"course": 5,
+			"duration": 2,
+			"group": [ 1, 2, 3 ]
+		}
+	},
+	{
+		"class": {
+			"professor": 7,
+			"course": 5,
+			"duration": 2,
+			"group": [ 1, 2 ]
+		}
+	},
+	{
+		"class": {
+			"professor": 10,
+			"course": 5,
+			"duration": 2,
+			"group": 3
+		}
+	},
+	{
+		"class": {
+			"professor": 8,
+			"course": 3,
+			"duration": 2,
+			"group": 2
+		}
+	},
+	{
+		"class": {
+			"professor": 8,
+			"course": 3,
+			"duration": 2,
+			"group": 3
+		}
+	},
+	{
+		"class": {
+			"professor": 12,
+			"course": 3,
+			"duration": 2,
+			"group": 1
+		}
+	},
+	{
+		"class": {
+			"professor": 12,
+			"course": 3,
+			"duration": 2,
+			"group": 4
+		}
+	},
+	{
+		"class": {
+			"professor": 11,
+			"course": 7,
+			"duration": 2,
+			"group": 4
+		}
+	},
+	{
+		"class": {
+			"professor": 13,
+			"course": 8,
+			"duration": 2,
+			"group": 4
+		}
+	}
+]
